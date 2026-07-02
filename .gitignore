@@ -1,0 +1,78 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ===== Virtual Environment =====
+churn-prediction-env/
+venv/
+env/
+ENV/
+.venv/
+
+# ===== Jupyter Notebooks =====
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# ===== Environment Variables / Secrets =====
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# ===== Data files (large / regenerable) =====
+backend/data/raw/*.csv
+backend/data/processed/*.csv
+!backend/data/raw/.gitkeep
+!backend/data/processed/.gitkeep
+
+# ===== Model artifacts (large binary files) =====
+backend/ml/models/*.pkl
+backend/ml/models/*.joblib
+!backend/ml/models/.gitkeep
+
+# ===== Logs =====
+*.log
+logs/
+
+# ===== Node / React (frontend) =====
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+frontend/.next/
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/.cache/
+
+# ===== Docker =====
+*.pid
+
+# ===== OS Junk =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== IDE / Editor =====
+.vscode/
+!.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# ===== Testing / Coverage =====
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# ===== Misc =====
+*.bak
+*.tmp
