@@ -1,0 +1,57 @@
+{
+  "model_name": "Random Forest (class_weight)",
+  "test_set_size": 1409,
+  "accuracy": 0.7764371894960965,
+  "precision": 0.75,
+  "recall": 0.24064171122994651,
+  "f1_score": 0.3643724696356275,
+  "roc_auc": 0.8402722880983751,
+  "confusion_matrix": {
+    "true_negative": 1005,
+    "false_positive": 30,
+    "false_negative": 284,
+    "true_positive": 90
+  },
+  "top_10_features": [
+    {
+      "Feature": "Contract",
+      "Importance": 0.14864218321688705
+    },
+    {
+      "Feature": "tenure",
+      "Importance": 0.1295909514130686
+    },
+    {
+      "Feature": "TotalCharges",
+      "Importance": 0.10952559158330147
+    },
+    {
+      "Feature": "MonthlyCharges",
+      "Importance": 0.08049154341783911
+    },
+    {
+      "Feature": "AvgMonthlySpend",
+      "Importance": 0.08046471203864762
+    },
+    {
+      "Feature": "InternetService_Fiber optic",
+      "Importance": 0.056764860675688616
+    },
+    {
+      "Feature": "TenureGroup",
+      "Importance": 0.05253261415076767
+    },
+    {
+      "Feature": "PaymentMethod_Electronic check",
+      "Importance": 0.0448841583799921
+    },
+    {
+      "Feature": "TotalServices",
+      "Importance": 0.024955507773194066
+    },
+    {
+      "Feature": "OnlineSecurity_Yes",
+      "Importance": 0.02303455737709652
+    }
+  ]
+}
