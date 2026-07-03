@@ -1,0 +1,50 @@
+[
+  {
+    "Model":"Logistic Regression (class_weight)",
+    "Accuracy":0.737,
+    "Precision":0.503,
+    "Recall":0.786,
+    "F1":0.613,
+    "ROC-AUC":0.841
+  },
+  {
+    "Model":"Logistic Regression (SMOTE)",
+    "Accuracy":0.731,
+    "Precision":0.496,
+    "Recall":0.749,
+    "F1":0.596,
+    "ROC-AUC":0.831
+  },
+  {
+    "Model":"Random Forest (class_weight)",
+    "Accuracy":0.776,
+    "Precision":0.56,
+    "Recall":0.735,
+    "F1":0.636,
+    "ROC-AUC":0.84
+  },
+  {
+    "Model":"Random Forest (SMOTE)",
+    "Accuracy":0.775,
+    "Precision":0.567,
+    "Recall":0.647,
+    "F1":0.604,
+    "ROC-AUC":0.836
+  },
+  {
+    "Model":"XGBoost (scale_pos_weight)",
+    "Accuracy":0.761,
+    "Precision":0.535,
+    "Recall":0.765,
+    "F1":0.629,
+    "ROC-AUC":0.839
+  },
+  {
+    "Model":"XGBoost (SMOTE)",
+    "Accuracy":0.786,
+    "Precision":0.603,
+    "Recall":0.572,
+    "F1":0.587,
+    "ROC-AUC":0.839
+  }
+]
