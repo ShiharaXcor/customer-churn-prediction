@@ -1,4 +1,6 @@
-# ===== Python =====
+# ============================
+# Python / Backend
+# ============================
 __pycache__/
 *.py[cod]
 *$py.class
@@ -9,40 +11,49 @@ dist/
 *.egg-info/
 .eggs/
 
-# ===== Virtual Environment =====
+# Virtual Environment
 churn-prediction-env/
 venv/
 env/
 ENV/
 .venv/
 
-# ===== Jupyter Notebooks =====
+# Jupyter Notebooks
 .ipynb_checkpoints/
 */.ipynb_checkpoints/*
 
-# ===== Environment Variables / Secrets =====
+# Environment Variables / Secrets
 .env
 .env.local
 .env.*.local
 *.pem
 *.key
 
-# ===== Data files (large / regenerable) =====
+# ============================
+# Data & Model Artifacts
+# ============================
 backend/data/raw/*.csv
 backend/data/processed/*.csv
 !backend/data/raw/.gitkeep
 !backend/data/processed/.gitkeep
 
-# ===== Model artifacts (large binary files) =====
 backend/ml/models/*.pkl
 backend/ml/models/*.joblib
+backend/ml/models/*.json
 !backend/ml/models/.gitkeep
 
-# ===== Logs =====
+backend/ml/outputs/*.png
+backend/ml/outputs/*.csv
+backend/ml/outputs/*.json
+!backend/ml/outputs/.gitkeep
+
+# Logs
 *.log
 logs/
 
-# ===== Node / React (frontend) =====
+# ============================
+# Node / React (Frontend)
+# ============================
 frontend/node_modules/
 frontend/build/
 frontend/dist/
@@ -51,28 +62,40 @@ frontend/npm-debug.log*
 frontend/yarn-debug.log*
 frontend/yarn-error.log*
 frontend/.cache/
+frontend/.env
+frontend/.env.local
 
-# ===== Docker =====
+# ============================
+# Docker
+# ============================
 *.pid
 
-# ===== OS Junk =====
+# ============================
+# OS Junk
+# ============================
 .DS_Store
 Thumbs.db
 desktop.ini
 
-# ===== IDE / Editor =====
+# ============================
+# IDE / Editor
+# ============================
 .vscode/
 !.vscode/settings.json
 .idea/
 *.swp
 *.swo
 
-# ===== Testing / Coverage =====
+# ============================
+# Testing / Coverage
+# ============================
 .pytest_cache/
 .coverage
 htmlcov/
 .tox/
 
-# ===== Misc =====
+# ============================
+# Misc
+# ============================
 *.bak
 *.tmp
