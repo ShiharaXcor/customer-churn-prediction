@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+ml/notebooks/
+data/
+churn-prediction-env/
+.env
+*.log
